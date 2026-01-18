@@ -1,5 +1,3 @@
-啊，我明白了，你是想整个 README.md 的命令部分和关键说明都 **保持格式清晰，同时加粗关键说明**，而不是分散的标题。这里我帮你整理成一段完整、可直接放 GitHub 的源码，同时命令保持独立、关键说明加粗：
-
 ````markdown
 # LBC-YOLO11: Lightweight Barcode and QR Code Detection Network
 
@@ -43,5 +41,4 @@ python out.py
 
 **The exported `.tflite` model can be used for real-time inference on Android devices.**
 **Deployment on Android:** Integrate the exported TFLite model into an Android Studio project. Use standard TFLite APIs to perform inference on CPU, GPU, or NPU. Adjust threads or input resolution for optimal performance on different devices.
-
 
